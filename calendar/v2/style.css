@@ -1,0 +1,65 @@
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #eee;
+}
+.containter{
+	width: 320px;
+	margin: auto;
+}
+.intro{
+	padding: 100px 0 20px;
+}
+#tool{
+	padding: 20px 0 ;
+}
+#calender{
+	background: #fff;
+	box-shadow: 4px 4px 20px rgba(0,0,0,.3);
+	font-family: Helvetica,"Microsoft yahei";
+}
+
+
+
+
+.calender-month{
+	position: relative;
+	background: #fff;
+}
+.calender-caption{
+	height: 50px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+	z-index: 2;
+}
+.calender-content{
+	position: relative;
+	overflow: hidden;
+}
+.calender-content:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.calender-cell{
+	float: left;
+	width: 14.28571428%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #000;
+	z-index: 1;
+}
+.calender-cell-dark{
+	opacity: .2;
+}
+.calender-caption .calender-cell{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #aaa;
+}
