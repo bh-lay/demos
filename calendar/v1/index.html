@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小日历</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="containter">
+	<div class="intro">
+		<h1>简单的日历demo</h1>
+		<p>简单的日历，不包含首尾上下个月补全，代码粗犷无包装，仅做参考。</p>
+	</div>
+	<div id="tool">
+		<select name="year" id="year" onchange="buildCalender()">
+			<option value="2009">2009</option>
+			<option value="2010">2010</option>
+			<option value="2011">2011</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			<option value="2014">2014</option>
+			<option value="2015" selected>2015</option>
+			<option value="2016">2016</option>
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>
+		</select>
+		<select name="month" id="month" onchange="buildCalender()">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7" selected>7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+	</div>
+	<div id="calender"></div>
+
+	<script src="index.js"></script>
+</body>
+</html>
