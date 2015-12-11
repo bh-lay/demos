@@ -1,0 +1,76 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding-top: 70px;
+	background: #ccc;
+}
+
+.text{
+	padding: 1.2rem 0;
+	margin-bottom: 10px;
+	background: #fff;
+	line-height: 30px;
+	font-size: 1rem;
+	color: #333;
+	text-align: center;
+}
+
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,.4);
+	z-index: 1000;
+}
+.gap{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: #555;
+}
+.gap-text{
+	padding: 100px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.gap-text span{
+	padding: 0 .5em;
+}
+
+.footer{
+	height: 400px;
+	background: #333;
+}
+
+.focus-title{
+	margin-bottom: .5rem;
+	padding: .5em 0;
+	text-align: center;
+	font-size: 3rem;
+}
+.focus-title h1{
+	margin-bottom: .3em;
+	font-size: 2.5rem;
+}
+.focus-title p{
+	font-size: 1rem;
+}
+
+
+@media screen and (max-width: 950px) {
+	.max950{
+		background: #f00;
+	}
+}
+@media screen and (min-width: 950px) {
+	.min950{
+		background: #f00;
+	}
+}
+

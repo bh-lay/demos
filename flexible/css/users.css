@@ -1,0 +1,43 @@
+.user-item{
+  margin-bottom: 10px;
+}
+
+.user-item{
+  padding: 15% 10%;
+  background: #fff;
+}
+.user-avatar{
+  position: relative;
+  width: 40%;
+  margin: 0 auto 20px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.user-avatar:before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+}
+.user-avatar img{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.user-main{
+}
+.user-main h3{
+  margin-bottom: 1em;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+.user-main p{
+  text-indent: 2em;
+  font-size: 14px;
+  color: #aaa;
+}
